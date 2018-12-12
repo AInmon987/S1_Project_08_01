@@ -50,12 +50,14 @@
                   for the whole family, and exclusive online content.</p>
             <!-- The table element has the id of Pricing. The table content is the colgroup element, thead, tfoot, tbody. -->
             <table id="pricing">
+                  <!-- The col group element has the col tags nested inside and the col tag has the id of firstCol. The second col tag has the id of dataCols -->
                   <colgroup>
                         <col id="firstCol">
                         <col span="4" class="dataCols">
                   </colgroup>
-
+                  <!-- The thead element has the table rows nested inside and has the content that makes up the table.  -->
                   <thead>
+                        <!-- The table row has a rowspan of two cells.  -->
                         <tr>
                               <th rowspan="2">Select a plan</th>
                               <th>Starter</th>
@@ -71,7 +73,7 @@
 
                         </tr>
                   </thead>
-
+                  <!-- The tfoot has a table row and has the table header of summary. Nested inside of the table row also is the table data that goes in the cell.  -->
                   <tfoot>
                         <tr>
                               <th>Summary</th>
@@ -85,7 +87,7 @@
                                     time and fast data delivery.</td>
                         </tr>
                   </tfoot>
-
+                  <!-- The tbody contains the information that belongs to the table headers and it contains the table headers. The content is going to be on the left hand side and the center of the table.  -->
                   <tbody>
                         <tr>
                               <th>Download Speed</th>
